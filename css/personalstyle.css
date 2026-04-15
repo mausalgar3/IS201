@@ -1,0 +1,86 @@
+.mainbg {
+    background-image: url(../assets/img/usa-texas-dallas-skyline-with-reunion-tower.webp);
+    background-size: 676px;
+}
+
+.mono {
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.lgreen {
+    color: rgb(161, 255, 161);
+}
+.boldwyte {
+    font-weight: bolder;
+    color: #ffffff;
+}
+.listtext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 65);
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+         1px  1px 0 #ffffff;
+
+}
+.lred {
+    color: rgb(255, 62, 62);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.fromright{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+
+.pledge-container {
+    display: flex;       /* Aligns children horizontally */
+    align-items:top; /* Vertically centers the text with the image */
+    gap: 20px;           /* Adds a nice gap between the image and text */
+    margin-top: 15px;    /* Adds space below the header */
+}
+.pledge-image {
+    width: 800px;        /* Adjust size as needed */
+    height: auto;
+    border-radius: 8px;  /* Optional: rounds the corners of your image */
+}
+
+
+.ufodiv {
+            top: 114px;
+            left: 114px;
+            right: 114px;
+            bottom: -400px;
+            padding-left: 55px;
+}
+
+.common {
+    background-color: #25003a;
+    border: 2px solid rgb(153, 129, 163);
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    text-align: center;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+.footer {
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+        height: 10px;
+        font-size: 12px;
+        color: #000000;
+        text-align: center;
+        padding-bottom: 25px;
+        position: fixed;
+}
