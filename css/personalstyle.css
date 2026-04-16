@@ -57,6 +57,8 @@
             right: 114px;
             bottom: -400px;
             padding-left: 55px;
+            display: flex;
+            gap: 10px;
 }
 
 .common {
