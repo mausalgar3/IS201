@@ -58,8 +58,10 @@
             bottom: -400px;
             padding-left: 55px;
             display: flex;
+            flex-wrap: wrap;
             gap: 10px;
             position: relative;
+            
 }
 
 .common {
